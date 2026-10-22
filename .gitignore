@@ -1,0 +1,18 @@
+# ── sandbox / tooling artefacts (not part of the website) ──
+.cache/
+.local/
+.shots/
+.sudo_as_admin_successful
+uploads/
+
+# ── OS / editor noise ──
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ── scratch ──
+*.log
+
+# ── release artefacts ──
+*.zip
