@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact & Hire Me | ÉCRIVELLE</title>
+<meta name="description" content="Start your writing, editing or formatting project. Tell me about your manuscript and I reply within one business day.">
+<meta property="og:title" content="Contact & Hire Me | ÉCRIVELLE">
+<meta property="og:description" content="Start your writing, editing or formatting project. Tell me about your manuscript and I reply within one business day.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2340E8">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='32' fill='%232340E8'/%3E%3Ctext x='32' y='44' font-family='Georgia' font-style='italic' font-size='34' text-anchor='middle' fill='white'%3E%C3%89%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500;1,6..96,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body data-page="contact">
+<a class="skip" href="#main">Skip to content</a>
+<header id="site-header"><noscript><nav class="wrap" style="padding:16px 0"><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="services.html">Services</a> | <a href="portfolio.html">My Work</a> | <a href="process.html">Process</a> | <a href="why-work-with-me.html">Why Me</a> | <a href="testimonials.html">Testimonials</a> | <a href="faq.html">FAQ</a> | <a href="contact.html">Contact</a></nav></noscript></header>
+<main id="main">
+
+<section class="page-head" style="padding-bottom:clamp(32px,4vw,56px)"><div class="wrap">
+  <p class="crumbs"><a href="index.html">Home</a> / Contact</p>
+  <span class="kicker">Hire me</span>
+  <h1 style="max-width:18ch">Have a story to tell or a manuscript to perfect?</h1>
+  <p class="lede">Let's turn your ideas into something exceptional.</p>
+</div></section>
+<section class="band" style="padding-top:0"><div class="wrap contact-grid">
+  <aside class="contact-panel reveal">
+    <h2 style="font-size:clamp(30px,3vw,40px)">Talk to me directly</h2>
+    <p style="color:rgba(255,255,255,.85)" data-response></p>
+    <p style="margin:0">Email: <a class="link" data-email href="#" style="color:#fff"></a></p>
+    <div class="channels" data-channels></div>
+  </aside>
+  <form class="form reveal" id="contact-form" novalidate>
+    <h2 style="font-size:clamp(28px,3vw,36px)">Tell me about your project</h2>
+    <p class="muted small" style="margin-bottom:28px">Fields marked optional can be left blank.</p>
+    <div class="field-row">
+      <div class="field"><label for="f-name">Name</label><input id="f-name" name="name" autocomplete="name" required><span class="err">Please enter your name.</span></div>
+      <div class="field"><label for="f-email">Email address</label><input id="f-email" name="email" type="email" autocomplete="email" required><span class="err">Please enter a valid email address.</span></div>
+    </div>
+    <div class="field"><label for="f-service">Service required</label><select id="f-service" name="service" required></select><span class="err">Please choose a service, or “Not sure yet”.</span></div>
+    <div class="field"><label for="f-message">Project description</label><textarea id="f-message" name="message" required minlength="20" placeholder="Genre, word count, where the manuscript is now, and what you'd like help with."></textarea><span class="err">Please describe your project in a sentence or two.</span></div>
+    <div class="field-row">
+      <div class="field"><label for="f-budget">Estimated budget <small>(optional)</small></label><select id="f-budget" name="budget"><option value="">Prefer not to say</option><option>Under $250</option><option>$250 – $750</option><option>$750 – $2,000</option><option>$2,000 – $5,000</option><option>$5,000+</option></select></div>
+      <div class="field"><label for="f-deadline">Desired deadline <small>(optional)</small></label><input id="f-deadline" name="deadline" type="date"></div>
+    </div>
+    <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+    <button class="btn btn--coral" type="submit" style="width:100%">Send my enquiry <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+    <div class="form-status" role="status" aria-live="polite"></div>
+  </form>
+</div></section>
+
+</main>
+<footer id="site-footer"></footer>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
